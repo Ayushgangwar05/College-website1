@@ -1,0 +1,344 @@
+.fullage{
+    width: auto;
+    height: auto;
+}
+.header{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    background-color: purple;
+    height: 80px;
+    width: auto;  
+}
+.logo{
+    width: 55px;
+    height: 50px;
+}
+.logo1{
+    width: 55px;
+    height: 50px;
+    margin-left: 360px;
+}
+.clgname{
+    font-weight: bold;
+    font-size: 13px;
+    width: 50px;
+    color: rgb(240, 230, 230);
+    margin-left: 13px;
+}
+.home1{
+    margin-left: 90px;
+    width: 35px;
+    height:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background-color: aqua;
+    font-size: 16.9px;
+}
+.home1:hover{
+    color: blue;
+}
+
+
+.shri{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    animation-name: shri;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: .2s;
+}
+@keyframes shri{
+    0% {color: blue;}
+    20%{color: brown;}
+    40%{color: purple;}
+    80%{color: violet;}
+}
+
+
+.collegepage{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+.font{
+    margin-right: 70px;
+    color: red;
+}
+.college1{
+    margin-left: 125px;
+    width: 1000px;
+    border-radius: 14px;
+}
+.font1{
+    margin-left: 190px;
+    color: red;
+}
+
+
+
+
+
+.Academicpage{
+display: flex;
+background-color: violet;
+width: auto;
+height: 400px;
+padding: 20px;
+
+}
+.artimg{
+    width: 280px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.art{
+    padding: 10px;
+}
+.scienceimg{
+    width: 280px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.science{
+    padding: 10px;
+}
+.commerceimg{
+    width: 280px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.commerce{
+    padding: 10px;
+}
+.academicheading{
+    font-weight: bold;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+    animation-name: academic;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: .2s;
+}
+@keyframes academic{
+    0% {color: blue;}
+    20%{color: brown;}
+    40%{color: purple;}
+    80%{color: violet;}
+}
+
+
+
+
+
+
+.headingadmission{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.admissionsection{
+    display: flex;
+    background-color: rgb(181, 171, 171);
+    width: auto;
+    height: 430px;
+    padding: 10px;
+}
+.heading11{
+    width: 170px;
+    height: 300px;
+    background-color: aquamarine;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    margin: 30px;
+}
+.heading12{
+    width: 170px;
+    height: 300px;
+    background-color: aquamarine;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    margin: 30px;
+}
+.heading4{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(162, 95, 242);
+    margin: 40px;
+    width: 130px;
+    height: 39px;
+    background-color: aliceblue;
+}
+.admissionsection3{
+    margin-left: 150px;
+}
+.class1{
+    width: 30px;
+    height: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 10px;
+}
+.unordered{
+    width: 80px;
+    height: 130px;
+    background-color: yellow;
+    padding: 50px;
+    margin: 25px;
+}
+.heading13{
+    width: 170px;
+    height: 300px;
+    background-color: aquamarine;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    margin: 30px;
+    margin-left: 120px;
+}
+.heading14{
+    width: 170px;
+    height: 300px;
+    background-color: aquamarine;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    margin: 30px;
+    margin-left: 20px;
+}
+
+
+
+.registration{
+    width: auto;
+    height: 400px;
+    background-color: white;
+    background-image: url(regrastation.jpg);
+    padding: 15px;
+}
+.registration1{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(213, 213, 224);
+    margin-left: 530px;
+    padding: 10px;
+    font-weight: bold;
+    color: dark,black;
+}
+
+
+.photu{
+    margin-left:700px;
+}
+.gallery1{
+    display: flex;
+    justify-content: center;
+    background-image: url(galleryimg9.jpeg);
+    height: 1000px;
+}
+.photu1{
+    width: 330px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.photu2{
+    width: 360px;
+    height: 463px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.photu3{
+    width: 330px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+.form{
+    width: auto;
+    height: 700px;
+    padding: 20px;
+    background-image: url(galleryimg10.webp);
+}
+.formlogo{
+    width: 45px;
+    height: 40px;
+}
+.heading22{
+   padding: 10px;
+   margin: 20px;
+}
+.form1{
+    font-family: 'Times New Roman', Times, serif;
+    color: dark white;
+}
+.form2{
+    width: 500px;
+    height: 550px;
+    background-color: blueviolet;
+    margin: auto;
+    padding: 25px;
+}
+.headingform{
+    margin-left: 90px;
+    color: dark black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.submit{
+    margin-left: 220px;
+}
+
+
+
+
+
+
+
+.contactus{
+    background-color: rgb(206, 221, 235);
+    width: auto;
+    height: 100px;
+}
+.number2{
+    display: flex;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: dark black;
+
+}
+.contact{
+    margin-left: 380px;
+    width: 30px;
+
+}
+.address{
+    margin-left: 560px;
+}
+
+
+
+
+
